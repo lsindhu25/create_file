@@ -1,0 +1,5 @@
+#/bin/bash
+now="$(date)"
+for file in file{1..10}.txt; do echo $now >$file
+#hello
+done  
