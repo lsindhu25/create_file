@@ -1,5 +1,5 @@
 #/bin/bash
-now="$(date)"
-for file in file{1..10}.txt; do echo $now >$file
-#hello
+#now="$(date)"
+#for file in file{1..10}.txt; do echo $now >$file
+for file in file{1..10}.txt;do chmod 750 $file
 done  
